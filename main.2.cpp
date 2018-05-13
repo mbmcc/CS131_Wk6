@@ -26,5 +26,5 @@ int main(){
         location = i;
       }
     }
-    std::cout << "The maximum value is " << max << "and PtrMax" << *ptrMax << " at location " << location << ", Memory Address " << ptrMax << std::endl;
+    std::cout << "The maximum value is " << *ptrMax << " at location " << location << " in the array, Memory Address " << ptrMax << std::endl;
 }
